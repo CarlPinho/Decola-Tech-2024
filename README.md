@@ -57,6 +57,39 @@ Para que o meu objeto execute uma ação é preciso representar uma AÇÃO na mi
 
 ### Classe
 
--  
+- using System;
 
--  
+public class Pessoa
+{
+   
+    // Atributos da classe
+    public string Nome { get; set; }
+    public int Idade { get; set; }
+
+    // Construtor da classe
+    public Pessoa(string nome, int idade)
+    {
+        Nome = nome;
+        Idade = idade;
+    }
+
+    // Método da classe
+    public void Apresentar()
+    {
+        Console.WriteLine($"Olá, meu nome é {Nome} e tenho {Idade} anos.");
+    }
+}
+
+class Program
+{
+    
+    static void Main()
+    {
+        // Exemplo de utilização da classe
+        Pessoa pessoa1 = new Pessoa("João", 25);
+        pessoa1.Apresentar();
+
+        Pessoa pessoa2 = new Pessoa("Maria", 30);
+        pessoa2.Apresentar();
+    }
+}
