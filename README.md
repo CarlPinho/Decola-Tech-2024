@@ -93,3 +93,28 @@ class Program
         pessoa2.Apresentar();
     }
 }
+
+
+## Convenções do C#
+
+Lembrando que essas convenções podem mudar de linguagem para linguagem.
+
+## TiposDeConvenções
+
+### camelCase
+
+  nomeDeVariavel
+  
+### PascalCase
+
+  Nome de  classe  utilizar  PascalCase. 
+  Nome de atributos utilizar  PascalCase.
+  Nome de métodos utilizar  PascalCase.
+  Sempre em maiúsculo o início da palavra !
+  
+### snake_case
+
+  
+  
+### spinal-case
+
