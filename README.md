@@ -114,7 +114,37 @@ Lembrando que essas convenções podem mudar de linguagem para linguagem.
   
 ### snake_case
 
-  
-  
 ### spinal-case
+
+
+## Tipos de dados
+
+## Tipos
+
+string  Nome = "Carlos";
+
+char  Letra = A ;
+
+boolean  mundialDoPalmeiras = False ;
+
+double = 4.20;
+
+int  Pinga = 51;
+
+float  Pi = 3.14f;
+
+decimal Preco = 0.50M ;
+
+
+Trabalhando com datas:
+
+DateTime dataAtual = DataTime.now;
+Console.WritLine(dataAtual);
+
+
+DateTime dataAtual = DataTime.now.AddDays(5);
+
+DateTime dataAtual = DataTime.now;
+
+
 
